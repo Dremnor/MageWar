@@ -1,0 +1,33 @@
+#
+# Dont use config file
+# Work in progress 
+# ues_mysql HAVE TO be false
+# WORK IN PROGRESSS :)
+#
+ues_mysql: false
+mysql:
+    database: Database_name
+    username: Username
+    password: Password
+    host: Host_Name
+    port: Port
+    table: Player_data_table_Name
+
+# YOU CAN USE ALL BELOW THIS LANE ==========================================================================================================================================
+
+# Turn Item Filter on/of
+
+itemfilter: true
+
+# Shuld item filter act like whitelist or blacklist (Blacklist if fales)
+# WHITETLIST - Only items on whitelist will give loot after breaking
+# Blacklist - Items on blacklist will not give any loot
+
+is_filter_whitelist: false
+
+# LOCALE
+# Avaiable: ENG
+# You can mace translation in locale.yml. If you want post it on https://dev.bukkit.org/projects/digloot 
+# then i can check it and add too plugin
+
+language: ENG

@@ -1,0 +1,6 @@
+name: MageWars
+version: 0.0.1
+main: me.Dremnor.MageWars.Main
+description: Random loot form block breaking
+author: Dremnor
+api-version: 1.14
